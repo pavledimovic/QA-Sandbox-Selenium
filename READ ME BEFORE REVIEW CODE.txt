@@ -2,9 +2,13 @@ QA-Sandbox test
 
 There are 2 repositories in Git 
 
-1. QA-Sandbox-Selenium        "https://github.com/pavledimovic/QA-Sandbox-Selenium.git"
+1. QA-Sandbox-Selenium     Git: https://github.com/pavledimovic/QA-Sandbox-Selenium.git
 
-2. QA-Sandbox-Gemini-Hermione "https://github.com/pavledimovic/QA-Sandbox-Gemini-Hermione.git"
+   Video of test execution:     https://1drv.ms/v/s!AqY9LWYIEA9XgR-aY40tQrpyB7we
+
+2. QA-Sandbox-Gemini-Hermione Git: https://github.com/pavledimovic/QA-Sandbox-Gemini-Hermione.git
+  
+   Video of test execution:        https://1drv.ms/v/s!AqY9LWYIEA9XgSDE4aGNCdoqGGfb
 
 QA-Sandbox-Selenium is standard Selenium test written in Java, using TestNG framework and Maven build tool in order that tests can easily be runned by Jenkins CI, I can use Gherkin BDD syntax if needed as well. I wrote few additional test and added in suite so you can have better perspective of principles that I am using.
 
