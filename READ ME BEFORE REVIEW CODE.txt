@@ -1,0 +1,24 @@
+QA-Sandbox test
+
+There are 2 repositories in Git 
+
+1. QA-Sandbox-Selenium        "https://github.com/pavledimovic/QA-Sandbox-Selenium.git"
+
+2. QA-Sandbox-Gemini-Hermione "https://github.com/pavledimovic/QA-Sandbox-Gemini-Hermione.git"
+
+QA-Sandbox-Selenium is standard Selenium test written in Java, using TestNG framework and Maven build tool in order that tests can easily be runned by Jenkins CI, I can use Gherkin BDD syntax if needed as well. I wrote few additional test and added in suite so you can have better perspective of principles that I am using.
+
+QA-Sandbox-Gemini-Hermione is CSS pixel comparason tool and I wrote some tests for Login page using Java Script language, in order to to start these tests you need to install Gemini by running few commands in comand line:
+- npm install -g gemini
+- npm install gemini
+- npm install -g selenium-standalone
+- selenium-standalone install
+- selenium standalone-start &
+
+For running tests we have 2 basic commands
+- gemini update (to capture referent screenshots)
+- gemini test (to compareref and actual screenshots)
+HTML report will be generated and can be viewed in browser
+
+I Am using Postman tool for API testing , Android Espresso for Android testing and Appium for IOS testing.
+I Have Jenkins CI skills for web and mobile testing.
