@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestingSuite">
+              <span class="suite-name border-passed">TestingSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestingSuite">
+                    <span>C:\Users\PavleD\eclipse-workspace\QA-Sandbox\testing.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestingSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestingSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestingSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestingSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestingSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestingSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestingSuite" class="hide-methods passed suite-TestingSuite"> (hide)</a> <!-- hide-methods passed suite-TestingSuite -->
+                      <a href="#" panel-name="suite-TestingSuite" class="show-methods passed suite-TestingSuite"> (show)</a> <!-- show-methods passed suite-TestingSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestingSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.AddTestCases" hash-for-method="addTestCases">addTestCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.AddTestCases" hash-for-method="addTestCases">addTestCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.EditTestCases" hash-for-method="editTestCases">editTestCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.EditTestCases" hash-for-method="editTestCases">editTestCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.ForgotPasswordTest" hash-for-method="forgotPasswordTest">forgotPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.ForgotPasswordTest" hash-for-method="forgotPasswordTest">forgotPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.LogInTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.LogInTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.NegativeLogInTest1" hash-for-method="negativeLoginTest1">negativeLoginTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.NegativeLogInTest1" hash-for-method="negativeLoginTest1">negativeLoginTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.NegativeLogInTest2" hash-for-method="negativeLoginTest2">negativeLoginTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.NegativeLogInTest2" hash-for-method="negativeLoginTest2">negativeLoginTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.RedirectionToWebSiteTest" hash-for-method="redirectionTest">redirectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.RedirectionToWebSiteTest" hash-for-method="redirectionTest">redirectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.RemoveTestCases" hash-for-method="removeTestCases">removeTestCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestingSuite" title="com.sandbox.qa.RemoveTestCases" hash-for-method="removeTestCases">removeTestCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestingSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestingSuite" class="panel TestingSuite">
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.AddTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTestCases">
+                  </a> <!-- addTestCases -->
+                  <span class="method-name">addTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTestCases">
+                  </a> <!-- addTestCases -->
+                  <span class="method-name">addTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.RedirectionToWebSiteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectionTest">
+                  </a> <!-- redirectionTest -->
+                  <span class="method-name">redirectionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="redirectionTest">
+                  </a> <!-- redirectionTest -->
+                  <span class="method-name">redirectionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.LogInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.RemoveTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeTestCases">
+                  </a> <!-- removeTestCases -->
+                  <span class="method-name">removeTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeTestCases">
+                  </a> <!-- removeTestCases -->
+                  <span class="method-name">removeTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.NegativeLogInTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTest2">
+                  </a> <!-- negativeLoginTest2 -->
+                  <span class="method-name">negativeLoginTest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTest2">
+                  </a> <!-- negativeLoginTest2 -->
+                  <span class="method-name">negativeLoginTest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.ForgotPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordTest">
+                  </a> <!-- forgotPasswordTest -->
+                  <span class="method-name">forgotPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordTest">
+                  </a> <!-- forgotPasswordTest -->
+                  <span class="method-name">forgotPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.EditTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editTestCases">
+                  </a> <!-- editTestCases -->
+                  <span class="method-name">editTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editTestCases">
+                  </a> <!-- editTestCases -->
+                  <span class="method-name">editTestCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+          <div class="suite-TestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sandbox.qa.NegativeLogInTest1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTest1">
+                  </a> <!-- negativeLoginTest1 -->
+                  <span class="method-name">negativeLoginTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLoginTest1">
+                  </a> <!-- negativeLoginTest1 -->
+                  <span class="method-name">negativeLoginTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingSuite-class-passed -->
+        </div> <!-- panel TestingSuite -->
+        <div panel-name="test-xml-TestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\PavleD\eclipse-workspace\QA-Sandbox\testing.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;TestingSuite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sandbox.qa.NegativeLogInTest1&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.NegativeLogInTest2&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.ForgotPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.RedirectionToWebSiteTest&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.LogInTest&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.RemoveTestCases&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.AddTestCases&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.EditTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;FirefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sandbox.qa.NegativeLogInTest1&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.NegativeLogInTest2&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.ForgotPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.RedirectionToWebSiteTest&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.LogInTest&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.RemoveTestCases&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.AddTestCases&quot;/&gt;
+      &lt;class name=&quot;com.sandbox.qa.EditTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
+&lt;/suite&gt; &lt;!-- TestingSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (8 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FirefoxTest (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestingSuite');
+function tableData_TestingSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addTestCases')
+data.setCell(0, 2, 'com.sandbox.qa.AddTestCases')
+data.setCell(0, 3, 67181);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addTestCases')
+data.setCell(1, 2, 'com.sandbox.qa.AddTestCases')
+data.setCell(1, 3, 65758);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'removeTestCases')
+data.setCell(2, 2, 'com.sandbox.qa.RemoveTestCases')
+data.setCell(2, 3, 52253);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'removeTestCases')
+data.setCell(3, 2, 'com.sandbox.qa.RemoveTestCases')
+data.setCell(3, 3, 50782);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'editTestCases')
+data.setCell(4, 2, 'com.sandbox.qa.EditTestCases')
+data.setCell(4, 3, 48548);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'editTestCases')
+data.setCell(5, 2, 'com.sandbox.qa.EditTestCases')
+data.setCell(5, 3, 46004);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'forgotPasswordTest')
+data.setCell(6, 2, 'com.sandbox.qa.ForgotPasswordTest')
+data.setCell(6, 3, 12018);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'forgotPasswordTest')
+data.setCell(7, 2, 'com.sandbox.qa.ForgotPasswordTest')
+data.setCell(7, 3, 11529);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'redirectionTest')
+data.setCell(8, 2, 'com.sandbox.qa.RedirectionToWebSiteTest')
+data.setCell(8, 3, 9658);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTest')
+data.setCell(9, 2, 'com.sandbox.qa.LogInTest')
+data.setCell(9, 3, 9156);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'negativeLoginTest1')
+data.setCell(10, 2, 'com.sandbox.qa.NegativeLogInTest1')
+data.setCell(10, 3, 8601);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'negativeLoginTest2')
+data.setCell(11, 2, 'com.sandbox.qa.NegativeLogInTest2')
+data.setCell(11, 3, 8536);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'com.sandbox.qa.LogInTest')
+data.setCell(12, 3, 8198);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'negativeLoginTest2')
+data.setCell(13, 2, 'com.sandbox.qa.NegativeLogInTest2')
+data.setCell(13, 3, 7812);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'negativeLoginTest1')
+data.setCell(14, 2, 'com.sandbox.qa.NegativeLogInTest1')
+data.setCell(14, 3, 7760);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'redirectionTest')
+data.setCell(15, 2, 'com.sandbox.qa.RedirectionToWebSiteTest')
+data.setCell(15, 3, 6955);
+window.suiteTableData['TestingSuite']= { tableData: data, tableDiv: 'times-div-TestingSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-TestingSuite">
+              </div> <!-- times-div-TestingSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.NegativeLogInTest1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTest1</span>
+                <span class="method-start">3934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=negativeLoginTest1 status=SUCCESS method=NegativeLogInTest1.negativeLoginTest1()[pr...)</span>
+                <span class="method-start">12536 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.NegativeLogInTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">17327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTest2</span>
+                <span class="method-start">20046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=negativeLoginTest2 status=SUCCESS method=NegativeLogInTest2.negativeLoginTest2()[pr...)</span>
+                <span class="method-start">28582 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">33361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordTest</span>
+                <span class="method-start">36051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=forgotPasswordTest status=SUCCESS method=ForgotPasswordTest.forgotPasswordTest()[pr...)</span>
+                <span class="method-start">48070 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.RedirectionToWebSiteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">52803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectionTest</span>
+                <span class="method-start">55513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=redirectionTest status=SUCCESS method=RedirectionToWebSiteTest.redirectionTest()[pr...)</span>
+                <span class="method-start">65171 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">69935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">72663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=LogInTest.loginTest()[pri:0, instance:com.sandbox.q...)</span>
+                <span class="method-start">81819 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.RemoveTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">86611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeTestCases</span>
+                <span class="method-start">89324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeTestCases status=SUCCESS method=RemoveTestCases.removeTestCases()[pri:0, inst...)</span>
+                <span class="method-start">140106 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.AddTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">144886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addTestCases</span>
+                <span class="method-start">147609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addTestCases status=SUCCESS method=AddTestCases.addTestCases()[pri:0, instance:com....)</span>
+                <span class="method-start">214790 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.EditTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">219572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editTestCases</span>
+                <span class="method-start">222377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=editTestCases status=SUCCESS method=EditTestCases.editTestCases()[pri:0, instance:c...)</span>
+                <span class="method-start">270925 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.NegativeLogInTest1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">275759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTest1</span>
+                <span class="method-start">279801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=negativeLoginTest1 status=SUCCESS method=NegativeLogInTest1.negativeLoginTest1()[pr...)</span>
+                <span class="method-start">287561 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.NegativeLogInTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">293376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLoginTest2</span>
+                <span class="method-start">297441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=negativeLoginTest2 status=SUCCESS method=NegativeLogInTest2.negativeLoginTest2()[pr...)</span>
+                <span class="method-start">305253 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">310880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordTest</span>
+                <span class="method-start">314907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=forgotPasswordTest status=SUCCESS method=ForgotPasswordTest.forgotPasswordTest()[pr...)</span>
+                <span class="method-start">326436 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.RedirectionToWebSiteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">332253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">redirectionTest</span>
+                <span class="method-start">336186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=redirectionTest status=SUCCESS method=RedirectionToWebSiteTest.redirectionTest()[pr...)</span>
+                <span class="method-start">343141 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">349295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">353362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=LogInTest.loginTest()[pri:0, instance:com.sandbox.q...)</span>
+                <span class="method-start">361560 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.RemoveTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">367525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeTestCases</span>
+                <span class="method-start">371573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeTestCases status=SUCCESS method=RemoveTestCases.removeTestCases()[pri:0, inst...)</span>
+                <span class="method-start">423826 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.AddTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">429166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addTestCases</span>
+                <span class="method-start">433049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addTestCases status=SUCCESS method=AddTestCases.addTestCases()[pri:0, instance:com....)</span>
+                <span class="method-start">498807 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sandbox.qa.EditTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">504033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editTestCases</span>
+                <span class="method-start">508560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=editTestCases status=SUCCESS method=EditTestCases.editTestCases()[pri:0, instance:c...)</span>
+                <span class="method-start">554564 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

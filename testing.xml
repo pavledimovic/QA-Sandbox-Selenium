@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestingSuite"  thread-count="1" parallel="false" verbose="1">
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.sandbox.qa.NegativeLogInTest1"/>
+	        <class name="com.sandbox.qa.NegativeLogInTest2"/> 
+			<class name="com.sandbox.qa.ForgotPasswordTest"/>
+			<class name="com.sandbox.qa.RedirectionToWebSiteTest"/>
+			<class name="com.sandbox.qa.LogInTest"/>
+	   <!-- <class name="com.sandbox.qa.RemoveTestCases"/> -->
+			<class name="com.sandbox.qa.AddTestCases"/>
+			<class name="com.sandbox.qa.EditTestCases"/>
+	   <!-- <class name="com.sandbox.qa.RemoveTestCases"/> -->
+		</classes>
+		</test>
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.sandbox.qa.NegativeLogInTest1"/>
+	        <class name="com.sandbox.qa.NegativeLogInTest2"/> 
+			<class name="com.sandbox.qa.ForgotPasswordTest"/>
+			<class name="com.sandbox.qa.RedirectionToWebSiteTest"/>
+			<class name="com.sandbox.qa.LogInTest"/>
+	   <!-- <class name="com.sandbox.qa.RemoveTestCases"/> -->
+			<class name="com.sandbox.qa.AddTestCases"/>
+			<class name="com.sandbox.qa.EditTestCases"/>
+	   <!-- <class name="com.sandbox.qa.RemoveTestCases"/> -->
+		</classes>
+	</test>	
+</suite>

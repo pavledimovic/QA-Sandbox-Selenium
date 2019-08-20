@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestingSuite]">
+  <test thread-count="1" verbose="0" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.sandbox.qa.NegativeLogInTest2">
+        <methods>
+          <include name="negativeLoginTest2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sandbox.qa.NegativeLogInTest2 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="1" verbose="0" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.sandbox.qa.NegativeLogInTest2">
+        <methods>
+          <include name="negativeLoginTest2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sandbox.qa.NegativeLogInTest2 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestingSuite] -->

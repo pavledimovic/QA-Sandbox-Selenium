@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18640" started-at="2019-08-20T08:08:16Z" finished-at="2019-08-20T08:08:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18640" started-at="2019-08-20T08:08:16Z" finished-at="2019-08-20T08:08:35Z">
+      <class name="com.sandbox.qa.NegativeLogInTest1">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@e874448]" name="setup" is-config="true" duration-ms="3990" started-at="2019-08-20T08:08:16Z" finished-at="2019-08-20T08:08:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="negativeLoginTest1()[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@e874448]" name="negativeLoginTest1" duration-ms="9840" started-at="2019-08-20T08:08:20Z" finished-at="2019-08-20T08:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@e874448]" name="tearDown" is-config="true" duration-ms="4774" started-at="2019-08-20T08:08:30Z" finished-at="2019-08-20T08:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLoginTest1 status=SUCCESS method=NegativeLogInTest1.negativeLoginTest1()[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@e874448] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.NegativeLogInTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestingSuite" duration-ms="560069" started-at="2019-08-19T20:29:56Z" finished-at="2019-08-19T20:39:16Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="275732" started-at="2019-08-19T20:29:56Z" finished-at="2019-08-19T20:34:32Z">
+      <class name="com.sandbox.qa.RedirectionToWebSiteTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@1e6d1014]" name="setup" is-config="true" duration-ms="2709" started-at="2019-08-19T20:30:49Z" finished-at="2019-08-19T20:30:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="redirectionTest()[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@1e6d1014]" name="redirectionTest" duration-ms="9658" started-at="2019-08-19T20:30:52Z" finished-at="2019-08-19T20:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@1e6d1014]" name="tearDown" is-config="true" duration-ms="4762" started-at="2019-08-19T20:31:01Z" finished-at="2019-08-19T20:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=redirectionTest status=SUCCESS method=RedirectionToWebSiteTest.redirectionTest()[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@1e6d1014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.RedirectionToWebSiteTest -->
+      <class name="com.sandbox.qa.LogInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.LogInTest@76707e36]" name="setup" is-config="true" duration-ms="2728" started-at="2019-08-19T20:31:06Z" finished-at="2019-08-19T20:31:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.sandbox.qa.LogInTest@76707e36]" name="loginTest" duration-ms="9156" started-at="2019-08-19T20:31:09Z" finished-at="2019-08-19T20:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.LogInTest@76707e36]" name="tearDown" is-config="true" duration-ms="4790" started-at="2019-08-19T20:31:18Z" finished-at="2019-08-19T20:31:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LogInTest.loginTest()[pri:0, instance:com.sandbox.qa.LogInTest@76707e36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.LogInTest -->
+      <class name="com.sandbox.qa.NegativeLogInTest2">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@2a17b7b6]" name="setup" is-config="true" duration-ms="2719" started-at="2019-08-19T20:30:13Z" finished-at="2019-08-19T20:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="negativeLoginTest2()[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@2a17b7b6]" name="negativeLoginTest2" duration-ms="8536" started-at="2019-08-19T20:30:16Z" finished-at="2019-08-19T20:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@2a17b7b6]" name="tearDown" is-config="true" duration-ms="4777" started-at="2019-08-19T20:30:25Z" finished-at="2019-08-19T20:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLoginTest2 status=SUCCESS method=NegativeLogInTest2.negativeLoginTest2()[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@2a17b7b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.NegativeLogInTest2 -->
+      <class name="com.sandbox.qa.NegativeLogInTest1">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@5d76b067]" name="setup" is-config="true" duration-ms="3934" started-at="2019-08-19T20:29:56Z" finished-at="2019-08-19T20:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="negativeLoginTest1()[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@5d76b067]" name="negativeLoginTest1" duration-ms="8601" started-at="2019-08-19T20:30:00Z" finished-at="2019-08-19T20:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@5d76b067]" name="tearDown" is-config="true" duration-ms="4786" started-at="2019-08-19T20:30:09Z" finished-at="2019-08-19T20:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLoginTest1 status=SUCCESS method=NegativeLogInTest1.negativeLoginTest1()[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@5d76b067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.NegativeLogInTest1 -->
+      <class name="com.sandbox.qa.AddTestCases">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.AddTestCases@1f554b06]" name="setup" is-config="true" duration-ms="2723" started-at="2019-08-19T20:32:21Z" finished-at="2019-08-19T20:32:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addTestCases()[pri:0, instance:com.sandbox.qa.AddTestCases@1f554b06]" name="addTestCases" duration-ms="67181" started-at="2019-08-19T20:32:24Z" finished-at="2019-08-19T20:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestCases -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.AddTestCases@1f554b06]" name="tearDown" is-config="true" duration-ms="4780" started-at="2019-08-19T20:33:31Z" finished-at="2019-08-19T20:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addTestCases status=SUCCESS method=AddTestCases.addTestCases()[pri:0, instance:com.sandbox.qa.AddTestCases@1f554b06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.AddTestCases -->
+      <class name="com.sandbox.qa.ForgotPasswordTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@4f063c0a]" name="setup" is-config="true" duration-ms="2690" started-at="2019-08-19T20:30:29Z" finished-at="2019-08-19T20:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="forgotPasswordTest()[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@4f063c0a]" name="forgotPasswordTest" duration-ms="12018" started-at="2019-08-19T20:30:32Z" finished-at="2019-08-19T20:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@4f063c0a]" name="tearDown" is-config="true" duration-ms="4732" started-at="2019-08-19T20:30:44Z" finished-at="2019-08-19T20:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPasswordTest status=SUCCESS method=ForgotPasswordTest.forgotPasswordTest()[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@4f063c0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.ForgotPasswordTest -->
+      <class name="com.sandbox.qa.EditTestCases">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.EditTestCases@694e1548]" name="setup" is-config="true" duration-ms="2805" started-at="2019-08-19T20:33:36Z" finished-at="2019-08-19T20:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editTestCases()[pri:0, instance:com.sandbox.qa.EditTestCases@694e1548]" name="editTestCases" duration-ms="48548" started-at="2019-08-19T20:33:38Z" finished-at="2019-08-19T20:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTestCases -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.EditTestCases@694e1548]" name="tearDown" is-config="true" duration-ms="4776" started-at="2019-08-19T20:34:27Z" finished-at="2019-08-19T20:34:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editTestCases status=SUCCESS method=EditTestCases.editTestCases()[pri:0, instance:com.sandbox.qa.EditTestCases@694e1548] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.EditTestCases -->
+      <class name="com.sandbox.qa.RemoveTestCases">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.RemoveTestCases@614ddd49]" name="setup" is-config="true" duration-ms="2713" started-at="2019-08-19T20:31:23Z" finished-at="2019-08-19T20:31:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="removeTestCases()[pri:0, instance:com.sandbox.qa.RemoveTestCases@614ddd49]" name="removeTestCases" duration-ms="50782" started-at="2019-08-19T20:31:25Z" finished-at="2019-08-19T20:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTestCases -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.RemoveTestCases@614ddd49]" name="tearDown" is-config="true" duration-ms="4780" started-at="2019-08-19T20:32:16Z" finished-at="2019-08-19T20:32:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeTestCases status=SUCCESS method=RemoveTestCases.removeTestCases()[pri:0, instance:com.sandbox.qa.RemoveTestCases@614ddd49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.RemoveTestCases -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="284281" started-at="2019-08-19T20:34:32Z" finished-at="2019-08-19T20:39:16Z">
+      <class name="com.sandbox.qa.LogInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.LogInTest@27a8c74e]" name="setup" is-config="true" duration-ms="4067" started-at="2019-08-19T20:35:45Z" finished-at="2019-08-19T20:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.sandbox.qa.LogInTest@27a8c74e]" name="loginTest" duration-ms="8198" started-at="2019-08-19T20:35:49Z" finished-at="2019-08-19T20:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.LogInTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="5965" started-at="2019-08-19T20:35:58Z" finished-at="2019-08-19T20:36:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LogInTest.loginTest()[pri:0, instance:com.sandbox.qa.LogInTest@27a8c74e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.LogInTest -->
+      <class name="com.sandbox.qa.RedirectionToWebSiteTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@33f88ab]" name="setup" is-config="true" duration-ms="3932" started-at="2019-08-19T20:35:28Z" finished-at="2019-08-19T20:35:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="redirectionTest()[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@33f88ab]" name="redirectionTest" duration-ms="6955" started-at="2019-08-19T20:35:32Z" finished-at="2019-08-19T20:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@33f88ab]" name="tearDown" is-config="true" duration-ms="6153" started-at="2019-08-19T20:35:39Z" finished-at="2019-08-19T20:35:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=redirectionTest status=SUCCESS method=RedirectionToWebSiteTest.redirectionTest()[pri:0, instance:com.sandbox.qa.RedirectionToWebSiteTest@33f88ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.RedirectionToWebSiteTest -->
+      <class name="com.sandbox.qa.NegativeLogInTest2">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@3712b94]" name="setup" is-config="true" duration-ms="4065" started-at="2019-08-19T20:34:49Z" finished-at="2019-08-19T20:34:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="negativeLoginTest2()[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@3712b94]" name="negativeLoginTest2" duration-ms="7812" started-at="2019-08-19T20:34:53Z" finished-at="2019-08-19T20:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@3712b94]" name="tearDown" is-config="true" duration-ms="5627" started-at="2019-08-19T20:35:01Z" finished-at="2019-08-19T20:35:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLoginTest2 status=SUCCESS method=NegativeLogInTest2.negativeLoginTest2()[pri:0, instance:com.sandbox.qa.NegativeLogInTest2@3712b94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.NegativeLogInTest2 -->
+      <class name="com.sandbox.qa.NegativeLogInTest1">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@4d41cee]" name="setup" is-config="true" duration-ms="4042" started-at="2019-08-19T20:34:32Z" finished-at="2019-08-19T20:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="negativeLoginTest1()[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@4d41cee]" name="negativeLoginTest1" duration-ms="7760" started-at="2019-08-19T20:34:36Z" finished-at="2019-08-19T20:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@4d41cee]" name="tearDown" is-config="true" duration-ms="5815" started-at="2019-08-19T20:34:44Z" finished-at="2019-08-19T20:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLoginTest1 status=SUCCESS method=NegativeLogInTest1.negativeLoginTest1()[pri:0, instance:com.sandbox.qa.NegativeLogInTest1@4d41cee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.NegativeLogInTest1 -->
+      <class name="com.sandbox.qa.AddTestCases">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.AddTestCases@1b68ddbd]" name="setup" is-config="true" duration-ms="3883" started-at="2019-08-19T20:37:05Z" finished-at="2019-08-19T20:37:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addTestCases()[pri:0, instance:com.sandbox.qa.AddTestCases@1b68ddbd]" name="addTestCases" duration-ms="65758" started-at="2019-08-19T20:37:09Z" finished-at="2019-08-19T20:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestCases -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.AddTestCases@1b68ddbd]" name="tearDown" is-config="true" duration-ms="5226" started-at="2019-08-19T20:38:15Z" finished-at="2019-08-19T20:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addTestCases status=SUCCESS method=AddTestCases.addTestCases()[pri:0, instance:com.sandbox.qa.AddTestCases@1b68ddbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.AddTestCases -->
+      <class name="com.sandbox.qa.ForgotPasswordTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@2833cc44]" name="setup" is-config="true" duration-ms="4027" started-at="2019-08-19T20:35:07Z" finished-at="2019-08-19T20:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="forgotPasswordTest()[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@2833cc44]" name="forgotPasswordTest" duration-ms="11529" started-at="2019-08-19T20:35:11Z" finished-at="2019-08-19T20:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@2833cc44]" name="tearDown" is-config="true" duration-ms="5817" started-at="2019-08-19T20:35:22Z" finished-at="2019-08-19T20:35:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPasswordTest status=SUCCESS method=ForgotPasswordTest.forgotPasswordTest()[pri:0, instance:com.sandbox.qa.ForgotPasswordTest@2833cc44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.ForgotPasswordTest -->
+      <class name="com.sandbox.qa.EditTestCases">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.EditTestCases@646d64ab]" name="setup" is-config="true" duration-ms="4527" started-at="2019-08-19T20:38:20Z" finished-at="2019-08-19T20:38:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editTestCases()[pri:0, instance:com.sandbox.qa.EditTestCases@646d64ab]" name="editTestCases" duration-ms="46004" started-at="2019-08-19T20:38:25Z" finished-at="2019-08-19T20:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTestCases -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.EditTestCases@646d64ab]" name="tearDown" is-config="true" duration-ms="5475" started-at="2019-08-19T20:39:11Z" finished-at="2019-08-19T20:39:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editTestCases status=SUCCESS method=EditTestCases.editTestCases()[pri:0, instance:com.sandbox.qa.EditTestCases@646d64ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.EditTestCases -->
+      <class name="com.sandbox.qa.RemoveTestCases">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.sandbox.qa.RemoveTestCases@2d8f65a4]" name="setup" is-config="true" duration-ms="4048" started-at="2019-08-19T20:36:04Z" finished-at="2019-08-19T20:36:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="removeTestCases()[pri:0, instance:com.sandbox.qa.RemoveTestCases@2d8f65a4]" name="removeTestCases" duration-ms="52253" started-at="2019-08-19T20:36:08Z" finished-at="2019-08-19T20:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTestCases -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sandbox.qa.RemoveTestCases@2d8f65a4]" name="tearDown" is-config="true" duration-ms="5340" started-at="2019-08-19T20:37:00Z" finished-at="2019-08-19T20:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeTestCases status=SUCCESS method=RemoveTestCases.removeTestCases()[pri:0, instance:com.sandbox.qa.RemoveTestCases@2d8f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sandbox.qa.RemoveTestCases -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestingSuite -->
+</testng-results>
